@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta content="Smart_99" name="UTF-8"/>
+    <meta content="Smart_99" name="author"/>
+    <meta name="description" content="这是一个基于leaflet.js的GIS项目"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <title>GPS参数提取与轨迹重现</title>
+    <!-- 引入leaflet css文件 -->
+
+    <link rel="stylesheet" type="text/css" href="styles/leaflet.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/leaflet-path.css"/>
+    <!-- 引入网页css文件 -->
+    <link rel="stylesheet" type="text/css" href="styles/amap.css"/>
+</head>
+
+<body>
+画轨迹的速度:
+    <input type="button" onclick="showTime()" value="慢速"/>
+    <input type="button" onclick="showTime1()" value="中速" />
+    <input type="button" onclick="showTime2()" value="快速" />
+    <span id="Span5"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+    每<span id="Span4"></span>&nbsp;&nbsp;&nbsp;秒画一次<br />
+<!--     <input type="text" id="text"/>-->
+<!--     <button id="btn">确定</button>-->
+     显示点个数：<span id="div"></span>  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     显示速度：<span id="Span1"></span>  &nbsp;&nbsp;&nbsp;km/h &nbsp;&nbsp;&nbsp;&nbsp;
+     显示速度范围：<span id="Span2"></span>  &nbsp;&nbsp;&nbsp;km/h &nbsp;&nbsp;&nbsp;&nbsp; 显示高度： 324.92 &nbsp;&nbsp;&nbsp;&nbsp;
+     显示经纬度：<span id="Span3"></span>
+<!--    <input type="text" id="text1"/>-->
+    <!-- 定义地图显示容器 -->
+<!--    <textarea cols="30" rows="1"></textarea>-->
+    <div id="mapid"></div>
+    <!-- 引入leaflet js文件 -->
+    <script type="text/javascript" src="scripts/leaflet.js"></script>
+    <!-- 引入leaflet插件 -->
+    <script type="text/javascript" src="scripts/leaflet-path.js"></script>
+    <!-- 引入主JS文件 -->
+    <script type="text/javascript" src="scripts/amap.js"></script>
+     
+</body>
+
+<script type="text/javascript">
+//      div.innerHTML= time;
+//    var btn=document.getElementById("btn");
+//    btn.onclick = function () {
+//        var text = document.getElementById("text");
+//        var div = document.getElementById("div");
+//        div.innerHTML = text.value;
+
+        //div.innerHTML+=""+text.value;//如果不清空div的内容容用这个
+        //        var time = new Date();
+        //        alert(time);
+    
+</script>
+
+</html>
